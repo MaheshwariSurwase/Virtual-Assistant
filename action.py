@@ -10,9 +10,6 @@ def Action (data):
         text_to_speech.text_to_speech("My name is virtual assistant")
         return "My name is virtual assistant"
     
-    elif "i love you my dear assistant" in user_data:
-        text_to_speech.text_to_speech("i love you too my dear maheshwari i want to spend whole life with you and i miss you dear mahi")
-        return "i love you too my dear maheshwari i want to spend whole life with you and i miss you dear maheshwari"
     
     elif "hello" in user_data or "hye" in user_data:
         text_to_speech.text_to_speech("hey, sir How I can help you")
